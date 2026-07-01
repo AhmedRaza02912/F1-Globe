@@ -1,0 +1,6 @@
+@F1_Globe_HostAddress = http://localhost:5283
+
+GET {{F1_Globe_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
