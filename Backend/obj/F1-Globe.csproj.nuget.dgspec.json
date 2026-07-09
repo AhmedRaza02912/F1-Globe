@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Desktop\\F1-Globe\\Backend\\F1-Globe.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\Extras\\F1-Globe\\Backend\\F1-Globe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Desktop\\F1-Globe\\Backend\\F1-Globe.csproj": {
+    "C:\\Users\\Hp\\Desktop\\Extras\\F1-Globe\\Backend\\F1-Globe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\F1-Globe\\Backend\\F1-Globe.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\Extras\\F1-Globe\\Backend\\F1-Globe.csproj",
         "projectName": "F1-Globe",
-        "projectPath": "C:\\Users\\Hp\\Desktop\\F1-Globe\\Backend\\F1-Globe.csproj",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\Extras\\F1-Globe\\Backend\\F1-Globe.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Desktop\\F1-Globe\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\Extras\\F1-Globe\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
