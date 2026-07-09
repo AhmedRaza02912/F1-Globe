@@ -1,8 +1,10 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
+import { useCircuits } from "../../hooks/useCircuits";
 import Earth from "./Earth";
 
 export default function GlobeScene() {
+  const {circuits, loading} = useCircuits();
   return (
     <Canvas
       style={{
@@ -39,5 +41,7 @@ export default function GlobeScene() {
         maxDistance={6}
       />
     </Canvas>
+    
   );
+  // console.log(circuits);
 }
