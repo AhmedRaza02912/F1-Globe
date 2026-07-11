@@ -1,13 +1,17 @@
 import { Canvas } from "@react-three/fiber";
+import { useState } from "react";
 import { OrbitControls, Stars } from "@react-three/drei";
 import { useCircuits } from "../../hooks/useCircuits";
+import CircuitInfo from "./CircuitInfo";
 import Marker from "./Marker";
 import Globe from "./Globe";
 import Earth from "./Earth";
 
 export default function GlobeScene() {
   const {circuits} = useCircuits();
+  const [selectedCircuit, setSelectedCircuit] = useState(null);
   return (
+    <div className="relative w-screen h-screen">
     <Canvas
       style={{
         width: "100vw",
@@ -33,7 +37,9 @@ export default function GlobeScene() {
         saturation={0}
         fade
       />
-      <Globe circuits ={circuits}/>
+      <Globe circuits ={circuits}
+      onSelect={setSelectedCircuit}
+      selectedCircuit={selectedCircuit}/>
       <OrbitControls
         enablePan={false}
         enableZoom={true}
@@ -41,7 +47,8 @@ export default function GlobeScene() {
         maxDistance={6}
       />
     </Canvas>
-    
+    <CircuitInfo />
+</div>
   );
   // console.log(circuits);
 }

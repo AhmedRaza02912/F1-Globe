@@ -3,25 +3,20 @@ import { useFrame } from "@react-three/fiber";
 
 import Earth from "./Earth";
 import Marker from "./Marker";
+import { select } from "three/src/nodes/math/ConditionalNode.js";
 
-export default function Globe({ circuits }) {
-
-    const globeRef = useRef();
-
-    useFrame((_, delta) => {
-        globeRef.current.rotation.y += delta * 0.05;
-    });
+export default function Globe({ circuits, onSelect, selectedCircuit }) {
 
     return (
-        <group ref={globeRef}>
-
+<group>
             <Earth />
 
             {circuits.map(circuit => (
                 <Marker
                     key={circuit.circuitId}
-                    latitude={circuit.latitude}
-                    longitude={circuit.longitude}
+                    circuit={circuit}
+                    onSelect={onSelect}
+                    selected = {selectedCircuit?.circuitId===circuit.circuitId}
                 />
             ))}
 
