@@ -21,5 +21,7 @@ namespace FormulaOne.API.Controllers
 
             return Ok(circuits);
         }
+
+        
     }
 }

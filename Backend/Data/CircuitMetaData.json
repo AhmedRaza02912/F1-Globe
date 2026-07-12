@@ -1,0 +1,23 @@
+[
+  {
+    "circuitId": "albert_park",
+    "laps": 58,
+    "lengthKm": 5.278,
+    "raceDistanceKm": 306.124,
+    "firstGrandPrix": 1996
+  },
+  {
+    "circuitId": "shanghai",
+    "laps": 56,
+    "lengthKm": 5.451,
+    "raceDistanceKm": 305.066,
+    "firstGrandPrix": 2004
+  },
+  {
+    "circuitId": "suzuka",
+    "laps": 53,
+    "lengthKm": 5.807,
+    "raceDistanceKm": 307.471,
+    "firstGrandPrix": 1987
+  }
+]

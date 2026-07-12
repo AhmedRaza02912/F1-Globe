@@ -6,7 +6,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
-
+builder.Services.AddSingleton<ICircuitMetadataService, CircuitMetadataService>();
 builder.Services.AddHttpClient<IF1Service, F1Service>();
 builder.Services.AddCors(options =>
 {

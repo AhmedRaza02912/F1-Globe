@@ -31,3 +31,4 @@ C:\Users\Hp\Desktop\Extras\F1-Globe\Backend\obj\Debug\net9.0\refint\F1-Globe.dll
 C:\Users\Hp\Desktop\Extras\F1-Globe\Backend\obj\Debug\net9.0\F1-Globe.pdb
 C:\Users\Hp\Desktop\Extras\F1-Globe\Backend\obj\Debug\net9.0\F1-Globe.genruntimeconfig.cache
 C:\Users\Hp\Desktop\Extras\F1-Globe\Backend\obj\Debug\net9.0\ref\F1-Globe.dll
+C:\Users\Hp\Desktop\Extras\F1-Globe\Backend\bin\Debug\net9.0\Data\CircuitMetaData.json
