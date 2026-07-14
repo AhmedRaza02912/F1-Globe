@@ -4,8 +4,8 @@ import { latLngToVector3 } from "../../utils/globeUtils";
 export default function Marker({ circuit, onSelect, selected }) {
 
     const position = latLngToVector3(
-        parseFloat(circuit.latitude),
-        parseFloat(circuit.longitude),
+        parseFloat(circuit.lat),
+        parseFloat(circuit.long),
         1.04
     );
 

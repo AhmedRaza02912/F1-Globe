@@ -7,15 +7,14 @@ import Marker from "./Marker";
 import Globe from "./Globe";
 import Earth from "./Earth";
 
-export default function GlobeScene() {
+export default function GlobeScene({onSelect, selectedCircuit}) {
   const {circuits} = useCircuits();
-  const [selectedCircuit, setSelectedCircuit] = useState(null);
   return (
-    <div className="relative w-screen h-screen">
+    <div className="relative w-full h-full">
     <Canvas
       style={{
-        width: "100vw",
-        height: "100vh",
+        width: "100%",
+        height: "100%",
       }}
       camera={{
         position: [0, 0, 4],
@@ -37,9 +36,11 @@ export default function GlobeScene() {
         saturation={0}
         fade
       />
-      <Globe circuits ={circuits}
-      onSelect={setSelectedCircuit}
-      selectedCircuit={selectedCircuit}/>
+      <Globe
+    circuits={circuits}
+    onSelect={onSelect}
+    selectedCircuit={selectedCircuit}
+/>
       <OrbitControls
         enablePan={false}
         enableZoom={true}
@@ -47,7 +48,6 @@ export default function GlobeScene() {
         maxDistance={6}
       />
     </Canvas>
-    <CircuitInfo />
 </div>
   );
   // console.log(circuits);
