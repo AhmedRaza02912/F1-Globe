@@ -19,5 +19,145 @@
     "lengthKm": 5.807,
     "raceDistanceKm": 307.471,
     "firstGrandPrix": 1987
+  },
+  {
+    "circuitId": "bahrain",
+    "laps": 57,
+    "lengthKm": 5.412,
+    "raceDistanceKm": 308.238,
+    "firstGrandPrix": 2004
+  },
+  {
+    "circuitId": "jeddah",
+    "laps": 50,
+    "lengthKm": 6.174,
+    "raceDistanceKm": 308.450,
+    "firstGrandPrix": 2021
+  },
+  {
+    "circuitId": "miami",
+    "laps": 57,
+    "lengthKm": 5.412,
+    "raceDistanceKm": 308.326,
+    "firstGrandPrix": 2022
+  },
+  {
+    "circuitId": "monaco",
+    "laps": 78,
+    "lengthKm": 3.337,
+    "raceDistanceKm": 260.286,
+    "firstGrandPrix": 1950
+  },
+  {
+    "circuitId": "catalunya",
+    "laps": 66,
+    "lengthKm": 4.657,
+    "raceDistanceKm": 307.236,
+    "firstGrandPrix": 1991
+  },
+  {
+    "circuitId": "villeneuve",
+    "laps": 70,
+    "lengthKm": 4.361,
+    "raceDistanceKm": 305.270,
+    "firstGrandPrix": 1978
+  },
+  {
+    "circuitId": "red_bull_ring",
+    "laps": 71,
+    "lengthKm": 4.318,
+    "raceDistanceKm": 306.452,
+    "firstGrandPrix": 1970
+  },
+  {
+    "circuitId": "silverstone",
+    "laps": 52,
+    "lengthKm": 5.891,
+    "raceDistanceKm": 306.198,
+    "firstGrandPrix": 1950
+  },
+  {
+    "circuitId": "spa",
+    "laps": 44,
+    "lengthKm": 7.004,
+    "raceDistanceKm": 308.052,
+    "firstGrandPrix": 1950
+  },
+  {
+    "circuitId": "hungaroring",
+    "laps": 70,
+    "lengthKm": 4.381,
+    "raceDistanceKm": 306.630,
+    "firstGrandPrix": 1986
+  },
+  {
+    "circuitId": "zandvoort",
+    "laps": 72,
+    "lengthKm": 4.259,
+    "raceDistanceKm": 306.648,
+    "firstGrandPrix": 1952
+  },
+  {
+    "circuitId": "monza",
+    "laps": 53,
+    "lengthKm": 5.793,
+    "raceDistanceKm": 306.720,
+    "firstGrandPrix": 1950
+  },
+  {
+    "circuitId": "baku",
+    "laps": 51,
+    "lengthKm": 6.003,
+    "raceDistanceKm": 306.049,
+    "firstGrandPrix": 2016
+  },
+  {
+    "circuitId": "marina_bay",
+    "laps": 62,
+    "lengthKm": 4.940,
+    "raceDistanceKm": 306.143,
+    "firstGrandPrix": 2008
+  },
+  {
+    "circuitId": "americas",
+    "laps": 56,
+    "lengthKm": 5.513,
+    "raceDistanceKm": 308.405,
+    "firstGrandPrix": 2012
+  },
+  {
+    "circuitId": "rodriguez",
+    "laps": 71,
+    "lengthKm": 4.304,
+    "raceDistanceKm": 305.354,
+    "firstGrandPrix": 1963
+  },
+  {
+    "circuitId": "interlagos",
+    "laps": 71,
+    "lengthKm": 4.309,
+    "raceDistanceKm": 305.879,
+    "firstGrandPrix": 1973
+  },
+  {
+    "circuitId": "las_vegas",
+    "laps": 50,
+    "lengthKm": 6.201,
+    "raceDistanceKm": 310.050,
+    "firstGrandPrix": 2023
+  },
+  {
+    "circuitId": "losail",
+    "laps": 57,
+    "lengthKm": 5.419,
+    "raceDistanceKm": 308.611,
+    "firstGrandPrix": 2021
+  },
+  {
+    "circuitId": "yas_marina",
+    "laps": 58,
+    "lengthKm": 5.281,
+    "raceDistanceKm": 306.183,
+    "firstGrandPrix": 2009
   }
 ]

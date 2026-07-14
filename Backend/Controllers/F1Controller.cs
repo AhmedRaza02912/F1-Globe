@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using FormulaOne.API.Services;
+using FormulaOne.API.Models;
 
 namespace FormulaOne.API.Controllers
 {
@@ -15,7 +16,7 @@ namespace FormulaOne.API.Controllers
         }
 
         [HttpGet("active-circuits/{season}")]
-        public async Task<IActionResult> GetActiveCircuits(int season)
+        public async Task<ActionResult<List<ActiveCircuitDto>>> GetActiveCircuits(int season)
         {
             var circuits = await _f1Service.GetActiveCircuitsAsync(season);
 

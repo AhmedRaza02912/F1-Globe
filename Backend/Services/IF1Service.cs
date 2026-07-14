@@ -4,6 +4,6 @@ namespace FormulaOne.API.Services
 {
     public interface IF1Service
     {
-        Task<List<CircuitDto>> GetActiveCircuitsAsync(int season);
+        Task<List<ActiveCircuitDto>> GetActiveCircuitsAsync(int season);
     }
 }
