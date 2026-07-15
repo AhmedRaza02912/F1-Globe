@@ -13,6 +13,7 @@ namespace FormulaOne.API.Controllers
         public F1Controller(IF1Service f1Service)
         {
             _f1Service = f1Service;
+            
         }
 
         [HttpGet("active-circuits/{season}")]
