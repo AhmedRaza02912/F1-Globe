@@ -6,20 +6,22 @@ import Marker from "./Marker";
 import { select } from "three/src/nodes/math/ConditionalNode.js";
 
 export default function Globe({ circuits, onSelect, selectedCircuit }) {
+    const globeRef = useRef();
+    useFrame((state, delta) =>{
+        globeRef.current.rotation.y += 0.2 * delta;
+    })
+  return (
+    <group ref={globeRef}>
+      <Earth />
 
-    return (
-<group>
-            <Earth />
-
-            {circuits.map(circuit => (
-                <Marker
-                    key={circuit.circuitId}
-                    circuit={circuit}
-                    onSelect={onSelect}
-                    selected = {selectedCircuit?.circuitId===circuit.circuitId}
-                />
-            ))}
-
-        </group>
-    );
+      {circuits.map((circuit) => (
+        <Marker
+          key={circuit.circuitId}
+          circuit={circuit}
+          onSelect={onSelect}
+          selected={selectedCircuit?.circuitId === circuit.circuitId}
+        />
+      ))}
+    </group>
+  );
 }
